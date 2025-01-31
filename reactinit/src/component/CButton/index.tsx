@@ -1,8 +1,8 @@
 import "./Button.css"
 
 interface Props {
-    text: string
-    func: () => void
+    text: string;
+    func: () => void;
 }
 
 function Button({ text, func }: Props) {
@@ -13,4 +13,4 @@ function Button({ text, func }: Props) {
     )
 }
 
-export default Button
+export default Button;

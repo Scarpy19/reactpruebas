@@ -1,6 +1,6 @@
 interface Props {
-    children: React.ReactNode,
-    text?: string
+    children: React.ReactNode;
+    text?: string;
 }
 
 function Card({ text, children }: Props) {
@@ -14,4 +14,4 @@ function Card({ text, children }: Props) {
     )
 }
 
-export default Card
+export default Card;
